@@ -1,0 +1,684 @@
+{
+    
+    "sofa" :[
+        
+            {
+                "id": "sofa001",
+                "category": "sofa",
+                "subcategory": "sectional sofas",
+                "title": "Royaloak Hector American Fabric Sofa Three Seater",
+                "price": 28999,
+                "rating": 4.7,
+                "img": "https://www.royaloakindia.com/media/catalog/product/s/f/sf5022-3_18_.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300"
+            },
+            {
+                "id": "sofa002",
+                "category": "sofa",
+                "subcategory": "two seater sofas",
+                "title": "Royaloak Hector American Fabric Sofa Two Seater",
+                "price": 26000,
+                "rating": 4.5,
+                "img": "https://www.royaloakindia.com/media/catalog/product/s/f/sf5022-2_16_.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300"
+            },
+            {
+                "id": "sofa003",
+                "category": "sofa",
+                "subcategory": "three seater sofas",
+                "title": "Royaloak Atlanta American Fabric Sofa Three Seater",
+                "price": 40999,
+                "rating": 4.3,
+                "img": "https://www.royaloakindia.com/media/catalog/product/s/f/sf5023-3_18_.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300"
+            },
+            {
+                "id": "sofa004",
+                "category": "sofa",
+                "subcategory": "two seater sofas",
+                "title": "Royaloak Atlanta American Fabric Sofa Two Seater",
+                "price": 34000,
+                "rating": 4.2,
+                "img": "https://www.royaloakindia.com/media/catalog/product/s/f/sf2053-2_18_.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300"
+            },
+            {
+                "id": "sofa005",
+                "category": "sofa",
+                "subcategory": "three seater sofas",
+                "title": "Royaloak Texas American Fabric Sofa Three Seater",
+                "price": 49999,
+                "rating": 4.6,
+                "img": "https://www.royaloakindia.com/media/catalog/product/s/f/sf5024-3_1_.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300"
+            },
+            {
+                "id": "sofa006",
+                "category": "sofa",
+                "subcategory": "two seater sofas",
+                "title": "Royaloak Texas American Fabric Sofa Two Seater",
+                "price": 35000,
+                "rating": 4.5,
+                "img": "https://www.royaloakindia.com/media/catalog/product/s/f/sf5024-2_1_.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300"
+            },
+            {
+                "id": "sofa007",
+                "category": "sofa",
+                "subcategory": "single seater sofas",
+                "title": "Royaloak Texas American Fabric Sofa Single Seater",
+                "price": 30000,
+                "rating": 4.4,
+                "img": "https://www.royaloakindia.com/media/catalog/product/s/f/sf5024-1_1_.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300"
+            },
+            {
+                "id": "sofa008",
+                "category": "sofa",
+                "subcategory": "sofa sets",
+                "title": "Royaloak New York American Fabric Sofa 3+2 Seater Set",
+                "price": 79999,
+                "rating": 4.8,
+                "img": "https://www.royaloakindia.com/media/catalog/product/s/f/sf5013-3_2_lfs.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300"
+            },
+            {
+                "id": "sofa009",
+                "category": "sofa",
+                "subcategory": "three seater sofas",
+                "title": "Royaloak New York American Fabric Sofa Three Seater",
+                "price": 43500,
+                "rating": 4.6,
+                "img": "https://www.royaloakindia.com/media/catalog/product/s/f/sf5013-3_1_.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300"
+            },
+            {
+                "id": "sofa010",
+                "category": "sofa",
+                "subcategory": "two seater sofas",
+                "title": "Royaloak New York American Fabric Sofa Two Seater",
+                "price": 36499,
+                "rating": 4.5,
+                "img": "https://www.royaloakindia.com/media/catalog/product/s/f/sf5013-2_1_.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300"
+            },
+            {
+                "id": "sofa011",
+                "category": "sofa",
+                "subcategory": "sofa sets",
+                "title": "Royaloak Melaka Malaysian Fabric Sofa Set 3+2 Seater",
+                "price": 40000,
+                "rating": 4.3,
+                "img": "https://www.royaloakindia.com/media/catalog/product/s/f/sf201742_3_2_1.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300"
+            },
+            {
+                "id": "sofa012",
+                "category": "sofa",
+                "subcategory": "sofa sets",
+                "title": "Royaloak Ipoh Malaysian Fabric Sofa Set 3+2 Seater",
+                "price": 40000,
+                "rating": 4.2,
+                "img": "https://www.royaloakindia.com/media/catalog/product/s/f/sf201741_3_2.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300"
+            },
+            {
+                "id": "sofa013",
+                "category": "sofa",
+                "subcategory": "sofa sets",
+                "title": "Royaloak Ashoka Wooden Sofa Set 3+2 Seater",
+                "price": 109999,
+                "rating": 4.7,
+                "img": "https://www.royaloakindia.com/media/catalog/product/3/_/3_2_lfs_copy.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300"
+            },
+            {
+                "id": "sofa014",
+                "category": "sofa",
+                "subcategory": "three seater sofas",
+                "title": "Royaloak Ashoka Wooden Sofa Three Seater",
+                "price": 60000,
+                "rating": 4.5,
+                "img": "https://www.royaloakindia.com/media/catalog/product/s/f/sf118-3_1_.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300"
+            },
+            {
+                "id": "sofa015",
+                "category": "sofa",
+                "subcategory": "two seater sofas",
+                "title": "Royaloak Ashoka Wooden Sofa Two Seater",
+                "price": 49999,
+                "rating": 4.4,
+                "img": "https://www.royaloakindia.com/media/catalog/product/s/f/sf118-2_1_.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300"
+            }
+        ],
+
+    "chairs":[
+        {
+            "id": "chair001",
+            "category": "chair",
+            "subcategory": "visitor chair",
+            "title": "Royaloak Grace Visitor Chair",
+            "price": 10999,
+            "rating": 4.5,
+            "img": "https:\/\/www.royaloakindia.com\/media\/catalog\/product\/c\/r\/cr20233021_1_.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300"
+        },
+        {
+            "id": "chair002",
+            "category": "chair",
+            "subcategory": "visitor chair",
+            "title": "Royaloak Sonic Visitor Chair",
+            "price": 7990,
+            "rating": 4.3,
+            "img": "https:\/\/www.royaloakindia.com\/media\/catalog\/product\/c\/r\/cr20233024_1_.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300"
+        },
+        {
+            "id": "chair003",
+            "category": "chair",
+            "subcategory": "study chair",
+            "title": "Royaloak Captain Kids Study Chair With Revolving Base",
+            "price": 6900,
+            "rating": 4.4,
+            "img": "https:\/\/www.royaloakindia.com\/media\/catalog\/product\/s\/d\/sdc23_1_.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300"
+        },
+        {
+            "id": "chair004",
+            "category": "chair",
+            "subcategory": "computer chair",
+            "title": "Royaloak Atlas Computer Chair with Revolving Base",
+            "price": 6499,
+            "rating": 4.1,
+            "img": "https:\/\/www.royaloakindia.com\/media\/catalog\/product\/c\/r\/cr8022_1_.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300"
+        },
+        {
+            "id": "chair005",
+            "category": "chair",
+            "subcategory": "visitor chair",
+            "title": "Royaloak Zen Visitor Chair",
+            "price": 6499,
+            "rating": 4.0,
+            "img": "https:\/\/www.royaloakindia.com\/media\/catalog\/product\/c\/r\/cr20233023_1_.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300"
+        },
+        {
+            "id": "chair006",
+            "category": "chair",
+            "subcategory": "visitor chair",
+            "title": "Royaloak Atlas Visitor Chair",
+            "price": 4989,
+            "rating": 3.9,
+            "img": "https:\/\/www.royaloakindia.com\/media\/catalog\/product\/c\/r\/cr8023_1_.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300"
+        },
+        {
+            "id": "chair007",
+            "category": "chair",
+            "subcategory": "visitor chair",
+            "title": "Royaloak Zita Mesh Visitor Chair",
+            "price": 8989,
+            "rating": 4.2,
+            "img": "https:\/\/www.royaloakindia.com\/media\/catalog\/product\/c\/r\/cr20233019_1_.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300"
+        },
+        {
+            "id": "chair008",
+            "category": "chair",
+            "subcategory": "office chair",
+            "title": "Royaloak Zita Mesh Office Chair with Revolving Base",
+            "price": 12499,
+            "rating": 4.3,
+            "img": "https:\/\/www.royaloakindia.com\/media\/catalog\/product\/c\/r\/cr20233018_1_.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300"
+        },
+        {
+            "id": "chair009",
+            "category": "chair",
+            "subcategory": "study chair",
+            "title": "Royaloak Mark Kids Chair with Revolving Base",
+            "price": 3990,
+            "rating": 4.0,
+            "img": "https:\/\/www.royaloakindia.com\/media\/catalog\/product\/c\/r\/cr7801_1_.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300"
+        },
+        {
+            "id": "chair010",
+            "category": "chair",
+            "subcategory": "visitor chair",
+            "title": "Royaloak Venice Italian Mesh Visitor Chair",
+            "price": 7990,
+            "rating": 4.4,
+            "img": "https:\/\/www.royaloakindia.com\/media\/catalog\/product\/l\/f\/lfs_3_800x500.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300"
+        },
+        {
+            "id": "chair011",
+            "category": "chair",
+            "subcategory": "computer chair",
+            "title": "Royaloak Venice Italian Mesh Computer Chair with Revolving Base",
+            "price": 10990,
+            "rating": 4.5,
+            "img": "https:\/\/www.royaloakindia.com\/media\/catalog\/product\/l\/f\/lfs_2_800x500.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300"
+        },
+        {
+            "id": "chair012",
+            "category": "chair",
+            "subcategory": "office chair",
+            "title": "Royaloak Venice Italian Mesh Office Chair with Revolving Base",
+            "price": 12499,
+            "rating": 4.6,
+            "img": "https:\/\/www.royaloakindia.com\/media\/catalog\/product\/l\/f\/lfs_1_800x500.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300"
+        },
+        {
+            "id": "chair013",
+            "category": "chair",
+            "subcategory": "visitor chair",
+            "title": "Royaloak Texas American Leatherette Visitor Chair",
+            "price": 6990,
+            "rating": 4.2,
+            "img": "https:\/\/www.royaloakindia.com\/media\/catalog\/product\/c\/h\/chair_1.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300"
+        },
+        {
+            "id": "chair014",
+            "category": "chair",
+            "subcategory": "computer chair",
+            "title": "Royaloak Texas American Leatherette Computer Chair",
+            "price": 10500,
+            "rating": 4.4,
+            "img": "https:\/\/www.royaloakindia.com\/media\/catalog\/product\/c\/h\/chair_2_1.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300"
+        },
+        {
+            "id": "chair015",
+            "category": "chair",
+            "subcategory": "office chair",
+            "title": "Royaloak Texas American Leatherette Office Chair",
+            "price": 13000,
+            "rating": 4.5,
+            "img": "https:\/\/www.royaloakindia.com\/media\/catalog\/product\/c\/h\/chair_3.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300"
+        }
+        
+    ],
+
+  "tables":[
+    {
+        "id": "table001",
+        "category": "table",
+        "subcategory": "glass top coffee tables",
+        "title": "Royaloak Veneto Italian Glass Top Coffee Table",
+        "price": 29899.00,
+        "rating": 5,
+        "img": "https://www.royaloakindia.com/media/catalog/product/c/t/ct8087_1_.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300"
+    },
+    {
+        "id": "table002",
+        "category": "table",
+        "subcategory": "glass top coffee tables",
+        "title": "Royaloak Bianca Italian Glass Top Coffee Table",
+        "price": 27499.00,
+        "rating": 5,
+        "img": "https://www.royaloakindia.com/media/catalog/product/c/t/ct8085_1_.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300"
+    },
+    {
+        "id": "table003",
+        "category": "table",
+        "subcategory": "sintered top coffee tables",
+        "title": "Royaloak Ray Sintered Top Coffee Table",
+        "price": 9989.00,
+        "rating": 54.5,
+        "img": "https://www.royaloakindia.com/media/catalog/product/c/t/ct8082_1.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300"
+    },
+    {
+        "id": "table004",
+        "category": "table",
+        "subcategory": "sintered top coffee tables",
+        "title": "Royaloak Reno Sintered Top Coffee Table",
+        "price": 24999.00,
+        "rating": 3.5,
+        "img": "https://www.royaloakindia.com/media/catalog/product/c/t/ct8096_lfs_copy_1.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300"
+    },
+    {
+        "id": "table005",
+        "category": "table",
+        "subcategory": "sintered top coffee tables",
+        "title": "Royaloak Terni Italian Sintered Top Coffee Table",
+        "price": 28999.00,
+        "rating": 3.4,
+        "img": "https://www.royaloakindia.com/media/catalog/product/c/t/ct8094_1_.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300"
+    },
+    {
+        "id": "table006",
+        "category": "table",
+        "subcategory": "glass coffee tables",
+        "title": "Royaloak Novara Italian Glass Coffee Table",
+        "price": 27499.00,
+        "rating": 3.3,
+        "img": "https://www.royaloakindia.com/media/catalog/product/c/t/ct8098_1_.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300"
+    },
+    {
+        "id": "table007",
+        "category": "table",
+        "subcategory": "sintered top coffee tables",
+        "title": "Royaloak Savona Italian Sintered Top Coffee Table",
+        "price": 19990.00,
+        "rating": 5,
+        "img": "https://www.royaloakindia.com/media/catalog/product/c/t/ct8097_1_.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300"
+    },
+    {
+        "id": "table008",
+        "category": "table",
+        "subcategory": "sintered top coffee tables",
+        "title": "Royaloak Ravenna Italian Sintered Top Coffee Table",
+        "price": 22500.00,
+        "rating": 4,
+        "img": "https://www.royaloakindia.com/media/catalog/product/c/t/ct8091_1_.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300"
+    },
+    {
+        "id": "table009",
+        "category": "table",
+        "subcategory": "sintered top coffee tables",
+        "title": "Royaloak Cosmos Sintered Top Coffee Table",
+        "price": 9989.00,
+        "rating": 4,
+        "img": "https://www.royaloakindia.com/media/catalog/product/c/t/ct8081.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300"
+    },
+    {
+        "id": "table010",
+        "category": "table",
+        "subcategory": "glass coffee tables",
+        "title": "Royaloak Sepang Malaysian Glass Coffee table",
+        "price": 15999.00,
+        "rating": 5,
+        "img": "https://www.royaloakindia.com/media/catalog/product/c/t/ct46_1_.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300"
+    },
+    {
+        "id": "table011",
+        "category": "table",
+        "subcategory": "marble coffee tables",
+        "title": "Royaloak Monza Italian Marble Coffee Table",
+        "price": 26000.00,
+        "rating": 3.2,
+        "img": "https://www.royaloakindia.com/media/catalog/product/c/t/ct8070_lfs_copy_1_.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300"
+    },
+    {
+        "id": "table012",
+        "category": "table",
+        "subcategory": "marble coffee tables",
+        "title": "Royaloak Parma Italian 5D Marble Coffee Table",
+        "price": 28999.00,
+        "rating": 3.2,
+        "img": "https://www.royaloakindia.com/media/catalog/product/c/t/ct30452_1_.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300"
+    },
+    {
+        "id": "table013",
+        "category": "table",
+        "subcategory": "marble coffee tables",
+        "title": "Royaloak Seina Italian 5D Marble Coffee Table",
+        "price": 28999.00,
+        "rating": 3.3,
+        "img": "https://www.royaloakindia.com/media/catalog/product/c/t/ct30451_1_.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300"
+    },
+    {
+        "id": "table014",
+        "category": "table",
+        "subcategory": "marble coffee tables",
+        "title": "Royaloak Treviso Italian Marble Coffee Table",
+        "price": 31999.00,
+        "rating": 4,
+        "img": "https://www.royaloakindia.com/media/catalog/product/c/t/ct8077_1_.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300"
+    },
+    {
+        "id": "table015",
+        "category": "table",
+        "subcategory": "marble coffee tables",
+        "title": "Royaloak Anzio Italian Marble Coffee Table",
+        "price": 27999.00,
+        "rating": 4,
+        "img": "https://www.royaloakindia.com/media/catalog/product/c/t/ct8076_1_.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300"
+    }
+],
+"wardrops":[
+    {
+        "id": "wardrobe001",
+        "category": "wardrobe",
+        "subcategory": "2-door wardrobes",
+        "title": "Classic Wooden 2-Door Wardrobe",
+        "price": 89900.00,
+        "rating": 5,
+        "img": "https://www.royaloakindia.com/media/catalog/product/w/r/wr3041-4_1_.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300"
+    },
+    {
+        "id": "wardrobe002",
+        "category": "wardrobe",
+        "subcategory": "3-door wardrobes",
+        "title": "Spacious 3-Door Wardrobe with Mirrors",
+        "price": 129999.00,
+        "rating": 5,
+        "img": "https://www.royaloakindia.com/media/catalog/product/w/r/wr20222002-2_1_.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300",
+        "stock": "Out of stock"
+    },
+    {
+        "id": "wardrobe003",
+        "category": "wardrobe",
+        "subcategory": "sliding door wardrobes",
+        "title": "Modern Sliding Door Wardrobe",
+        "price": 149999.00,
+        "rating": 4.5,
+        "img": "https://www.royaloakindia.com/media/catalog/product/w/r/wr122201-3_1_.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300"
+    },
+    {
+        "id": "wardrobe004",
+        "category": "wardrobe",
+        "subcategory": "4-door wardrobes",
+        "title": "Spacious 4-Door Wardrobe with Drawers",
+        "price": 179999.00,
+        "rating": 4.5,
+        "img": "https://www.royaloakindia.com/media/catalog/product/w/r/wr122201-2_1_.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300"
+    },
+    {
+        "id": "wardrobe005",
+        "category": "wardrobe",
+        "subcategory": "mirrored wardrobes",
+        "title": "Elegant Mirrored Wardrobe",
+        "price": 159999.00,
+        "rating": 4.5,
+        "img": "https://www.royaloakindia.com/media/catalog/product/4/4/4409_lfs-oe_2_.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300",
+        "stock": "Out of stock"
+    },
+    {
+        "id": "wardrobe006",
+        "category": "wardrobe",
+        "subcategory": "corner wardrobes",
+        "title": "Space-Saving Corner Wardrobe",
+        "price": 99999.00,
+        "rating": 4.7,
+        "img": "https://www.royaloakindia.com/media/catalog/product/4/4/4409_lfs-oe_4_.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300"
+    },
+    {
+        "id": "wardrobe007",
+        "category": "wardrobe",
+        "subcategory": "corner wardrobes",
+        "title": "Royaloak Zara Bedroom Set (King Size Bed With Storage+ Dresser + Side Table + 2 Door Wardrobe)",
+        "price": 43978.00,
+        "rating": 4.8,
+        "img": "https://www.royaloakindia.com/media/catalog/product/b/d/bd4410-5-6_wr.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300",
+        "price 2": "₹112,997.00"
+    },
+    {
+        "id": "wardrobe008",
+        "category": "wardrobe",
+        "subcategory": "corner wardrobes",
+        "title": "Royaloak Zara Bedroom Set (Queen Size Bed With Storage+ Dresser + Side Table + 2 Door Wardrobe)",
+        "price": 40478.00,
+        "rating": 5,
+        "img": "https://www.royaloakindia.com/media/catalog/product/b/d/bd4410-5-6_copy_wr_2.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300",
+        "price 2": "₹104,998.00"
+    },
+    {
+        "id": "wardrobe009",
+        "category": "wardrobe",
+        "subcategory": "corner wardrobes",
+        "title": "Royaloak Zara Wardrobe 3 Door",
+        "price": 11499.00,
+        "rating": 5,
+        "img": "https://www.royaloakindia.com/media/catalog/product/w/r/wr202001-3_2_.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300",
+        "price 2": "₹30,000.00",
+        "best_seller": "Best Seller"
+    },
+    {
+        "id": "wardrobe010",
+        "category": "wardrobe",
+        "subcategory": "corner wardrobes",
+        "title": "Royaloak Zara Wardrobe 2 Door",
+        "price": 8989.00,
+        "rating": 4.4,
+        "img": "https://www.royaloakindia.com/media/catalog/product/w/r/wr202001-2_2_.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300",
+        "price 2": "₹24,999.00",
+        "best_seller": "Best Seller"
+    },
+    {
+        "id": "wardrobe011",
+        "category": "wardrobe",
+        "subcategory": "sliding door wardrobes",
+        "title": "Royaloak Atlanta American Wardrobe 4 Door",
+        "price": 99900.00,
+        "rating": 4.5,
+        "img": "https://www.royaloakindia.com/media/catalog/product/w/r/wr3041-4_1_.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300"
+    },
+    {
+        "id": "wardrobe012",
+        "category": "wardrobe",
+        "subcategory": "sliding door wardrobes",
+        "title": "Royaloak Audi Wardrobe 2 Door",
+        "price": 34999.00,
+        "rating": 4.9,
+        "img": "https://www.royaloakindia.com/media/catalog/product/w/r/wr20222002-2_1_.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300",
+        "stock": "Out of stock"
+    },
+    {
+        "id": "wardrobe013",
+        "category": "wardrobe",
+        "subcategory": "sliding door wardrobes",
+        "title": "Royaloak Texas American Wooden Wardrobe 3 Door",
+        "price": 39989.00,
+        "rating": 4.7,
+        "img": "https://www.royaloakindia.com/media/catalog/product/w/r/wr122201-3_1_.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300"
+    },
+    {
+        "id": "wardrobe014",
+        "category": "wardrobe",
+        "subcategory": "4-door wardrobes",
+        "title": "Royaloak Texas American Wooden Wardrobe 2 Door",
+        "price": 29989.00,
+        "rating": 4.8,
+        "img": "https://www.royaloakindia.com/media/catalog/product/w/r/wr122201-2_1_.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300"
+    },
+    {
+        "id": "wardrobe015",
+        "category": "wardrobe",
+        "subcategory": "4-door wardrobes",
+        "title": "Royaloak Alpha Wardrobe 3 Door",
+        "price": 27499.00,
+        "rating": 5,
+        "img": "https://www.royaloakindia.com/media/catalog/product/4/4/4409_lfs-oe_2_.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300",
+        "stock": "Out of stock"
+    }
+    
+],
+
+"curtains":[
+    {
+        "id": "curtain001",
+        "category": "curtains",
+        "subcategory": "blackout solids",
+        "title": "Royaloak Daisy Blackout Solids Blue Window Curtain",
+        "price": 1199.00,
+        "rating": 5,
+        "img": "https://www.royaloakindia.com/media/catalog/product/_/d/_dsc1711_copy_2.png?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300&format=jpeg"
+    },
+    {
+        "id": "curtain002",
+        "category": "curtains",
+        "subcategory": "blackout solids",
+        "title": "Royaloak Daisy Blackout Solids Grey Window Curtain",
+        "price": 1199.00,
+        "rating": 4.3,
+        "img": "https://www.royaloakindia.com/media/catalog/product/_/d/_dsc1744_copy_2.png?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300&format=jpeg"
+    },
+    {
+        "id": "curtain003",
+        "category": "curtains",
+        "subcategory": "blackout solids",
+        "title": "Royaloak Daisy Blackout Solids Maroon Window Curtain",
+        "price": 1199.00,
+        "rating": 4.3,
+        "img": "https://www.royaloakindia.com/media/catalog/product/_/d/_dsc1726_copy_2.png?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300&format=jpeg"
+    },
+    {
+        "id": "curtain004",
+        "category": "curtains",
+        "subcategory": "blackout solids",
+        "title": "Royaloak Daisy Blackout-Solids Offwhite Window Curtain",
+        "price": 1199.00,
+        "rating": 4.5,
+        "img": "https://www.royaloakindia.com/media/catalog/product/l/s/ls_copy_10_2.png?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300&format=jpeg"
+    },
+    {
+        "id": "curtain005",
+        "category": "curtains",
+        "subcategory": "blackout solids",
+        "title": "Royaloak Daisy Blackout Solids Gold Window Curtain",
+        "price": 1199.00,
+        "rating": 4.6,
+        "img": "https://www.royaloakindia.com/media/catalog/product/_/d/_dsc1810_copy_2.png?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300&format=jpeg"
+    },
+    {
+        "id": "curtain006",
+        "category": "curtains",
+        "subcategory": "blackout solids",
+        "title": "Royaloak Daisy Blackout Solids Brown Window Curtain",
+        "price": 1199.00,
+        "rating": 4.7,
+        "img": "https://www.royaloakindia.com/media/catalog/product/_/d/_dsc1681_copy_2.png?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300&format=jpeg"
+    },
+    {
+        "id": "curtain007",
+        "category": "curtains",
+        "subcategory": "blackout solids",
+        "title": "Royaloak Daisy Blackout Door Curtain - Solid Blue",
+        "price": 1498.00,
+        "rating": 4.8,
+        "img": "https://www.royaloakindia.com/media/catalog/product/_/d/_dsc1711_copy.png?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300&format=jpeg"
+    },
+    {
+        "id": "curtain008",
+        "category": "curtains",
+        "subcategory": "blackout solids",
+        "title": "Royaloak Daisy Blackout Door Curtain - Solid Offwhite",
+        "price": 1498.00,
+        "rating": 4.8,
+        "img": "https://www.royaloakindia.com/media/catalog/product/l/s/ls_copy_10.png?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&"
+    },
+        {
+        "id": "curtain009",
+        "category": "curtains",
+        "subcategory": "blackout solids",
+        "title": "Royaloak Daisy Blackout Door Curtain - Solid Gold",
+        "price": 1498.00,
+        "rating": 3,
+        "img": "https://www.royaloakindia.com/media/catalog/product/_/d/_dsc1810_copy.png?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300&format=jpeg"
+    },
+    {
+        "id": "curtain010",
+        "category": "curtains",
+        "subcategory": "blackout solids",
+        "title": "Royaloak Daisy Blackout Door Curtain - Solid Beige",
+        "price": 1498.00,
+        "rating": 3.2,
+        "img": "https://www.royaloakindia.com/media/catalog/product/_/d/_dsc1744_copy.png?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300&format=jpeg"
+    },
+    {
+        "id": "curtain011",
+        "category": "curtains",
+        "subcategory": "blackout solids",
+        "title": "Royaloak Daisy Blackout Door Curtain - Solid Maroon",
+        "price": 1498.00,
+        "rating": 2,
+        "img": "https://www.royaloakindia.com/media/catalog/product/_/d/_dsc1726_copy.png?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300&format=jpeg"
+    },
+    {
+        "id": "curtain012",
+        "category": "curtains",
+        "subcategory": "blackout solids",
+        "title": "Royaloak Daisy Blackout Door Curtain - Solid Brown",
+        "price": 1498.00,
+        "rating": 5,
+        "img": "https://www.royaloakindia.com/media/catalog/product/_/d/_dsc1681_copy.png?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300&format=jpeg"
+    }
+]
+
+
+
+  
+        
+         
+
+}
