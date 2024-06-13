@@ -673,8 +673,33 @@
         "rating": 5,
         "img": "https://www.royaloakindia.com/media/catalog/product/_/d/_dsc1681_copy.png?optimize=medium&bg-color=255,255,255&fit=bounds&height=300&width=480&canvas=480:300&format=jpeg"
     }
-]
+],
 
+"users": [
+  {
+    "id": 1,
+    "username": "Madhu",
+    "email": "madhu@gmail.com",
+    "password": "madhu123"
+  }
+],
+
+"admin": [
+  {
+    "id": 1,
+    "username": "Admin",
+    "email": "admin@gmail.com",
+    "password": "admin"
+  }
+],
+
+"cart":[
+
+],
+
+"wishlist":[
+    
+]
 
 
   
