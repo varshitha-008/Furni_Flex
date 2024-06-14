@@ -1,16 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-// import './App.css'
-import Admin from './components/Admin/Admin'
+import React from 'react'
+import { Flex } from '@chakra-ui/react'
+import Sidebar from './components/Admin/Sidebar/Sidebar'
 
-function App() {
-  const [count, setCount] = useState(0)
 
+
+const App = () => {
   return (
-    <>
-     <Admin />
-    </>
+    <Flex>
+        <Sidebar/>
+    </Flex>
   )
 }
 
