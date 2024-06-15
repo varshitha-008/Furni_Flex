@@ -1,3 +1,4 @@
+
 // App.jsx
 import React from 'react';
 import Navbar from './components/Navbar'; // Adjust the path as necessary
@@ -14,5 +15,20 @@ const App = () => {
     </div>
   );
 };
+
+import React from 'react'
+import { Flex } from '@chakra-ui/react'
+import Sidebar from './components/Admin/Sidebar/Sidebar'
+
+
+
+const App = () => {
+  return (
+    <Flex>
+        <Sidebar/>
+    </Flex>
+  )
+}
+
 
 export default App;
