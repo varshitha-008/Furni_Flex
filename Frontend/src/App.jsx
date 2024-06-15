@@ -1,24 +1,3 @@
-
-// import React from 'react';
-// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-// import Chairs from './components/Chairs';
-// import Cart from './components/Cart';
-// import Payment from './components/Payment'; // Import the Payment component
-
-// const App = () => {
-//   return (
-//     <Router>
-//       <Routes>
-//         <Route path="/" element={<Chairs />} />
-//         <Route path="/cart" element={<Cart />} />
-//         <Route path="/payment" element={<Payment />} /> {/* Add the Payment route */}
-//       </Routes>
-//     </Router>
-//   );
-// };
-
-// export default App;
-
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Chairs from './components/Chairs';

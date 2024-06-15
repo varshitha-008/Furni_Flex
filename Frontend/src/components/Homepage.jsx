@@ -1,108 +1,16 @@
-// // import React from 'react';
-// // import { Link } from 'react-router-dom';
-// // import { Box, Flex, Heading, Button, Grid, GridItem } from '@chakra-ui/react'; // Adjust Chakra UI components as needed
-// // import { Carousel } from 'react-responsive-carousel';
-// // import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
-// // const Homepage = () => {
-// //   // Mock data for carousel images (you can replace this with actual data)
-// //   const carouselImages = [
-// //     { id: 1, imageUrl: 'https://via.placeholder.com/800x400?text=Carousel+Image+1', altText: 'Carousel Image 1' },
-// //     { id: 2, imageUrl: 'https://via.placeholder.com/800x400?text=Carousel+Image+2', altText: 'Carousel Image 2' },
-// //     { id: 3, imageUrl: 'https://via.placeholder.com/800x400?text=Carousel+Image+3', altText: 'Carousel Image 3' },
-// //   ];
-
-// //   return (
-// //     <Box p={4}>
-// //       {/* Carousel */}
-// //       <Carousel showThumbs={false} showStatus={false} infiniteLoop autoPlay>
-// //         {carouselImages.map((image) => (
-// //           <div key={image.id}>
-// //             <img src={image.imageUrl} alt={image.altText} style={{ maxWidth: '100%' }} />
-// //           </div>
-// //         ))}
-// //       </Carousel>
-
-// //       {/* Cards */}
-// //       <Grid templateColumns="repeat(auto-fill, minmax(250px, 1fr))" gap={6} mt={6}>
-// //         <GridItem>
-// //           <Box borderWidth="1px" borderRadius="lg" overflow="hidden" shadow="sm" bg="white">
-// //             <Box p="6">
-// //               <Heading as="h2" size="md" mb={2}>Chairs</Heading>
-// //               <Button as={Link} to="/chairs" colorScheme="teal" mt={4}>
-// //                 View Chairs
-// //               </Button>
-// //             </Box>
-// //           </Box>
-// //         </GridItem>
-// //       </Grid>
-// //     </Box>
-// //   );
-// // };
-
-// // export default Homepage;
-// import React from 'react';
-// import { Link } from 'react-router-dom';
-// import { Box, Flex, Heading, Button, Grid, GridItem, Center } from '@chakra-ui/react'; // Adjust Chakra UI components as needed
-// import { Carousel } from 'react-responsive-carousel';
-// import 'react-responsive-carousel/lib/styles/carousel.min.css';
-// import Footer from './Footer';
-// import Navbar from './Navbar';
-
-// const Homepage = () => {
-//   // Mock data for carousel images (you can replace this with actual data)
-//   const carouselImages = [
-//     { id: 1, imageUrl: "https://www.godrejinterio.com/imagestore/B2C/EspotImages/Images/Banners/HI01_MGSL_HSSACCS_D_310524.jpg", altText: 'Carousel Image 1' },
-//     { id: 2, imageUrl: "https://www.godrejinterio.com/imagestore/B2C/EspotImages/Images/Banners/HI03_SL_HSSACCS_D_310524.jpg", altText: 'Carousel Image 2' },
-//     { id: 3, imageUrl: "https://www.godrejinterio.com/imagestore/B2C/EspotImages/Images/Banners/HI05_MK_HSSACCS_D_310524.jpg", altText: 'Carousel Image 3' },
-//     { id: 4, imageUrl: "https://www.godrejinterio.com/imagestore/B2C/EspotImages/Images/Banners/HI02_B_HSSACCS_D_310524.jpg", altText: 'Carousel Image 4' },
-//   ];
-
-//   return (
-//     <>
-//     <Navbar />
-//     <Box p={4}>
-//       {/* Carousel */}
-//       <Carousel showThumbs={false} showStatus={false} infiniteLoop autoPlay style={{ maxWidth: '800px', margin: '0 auto' }}>
-//         {carouselImages.map((image) => (
-//           <div key={image.id}>
-//             <img src={image.imageUrl} alt={image.altText} style={{ maxWidth: '100%' }} />
-//           </div>
-//         ))}
-//       </Carousel>
-
-//       {/* Cards */}
-//       <Grid templateColumns="repeat(auto-fill, minmax(250px, 1fr))" gap={6} mt={6}>
-//         <GridItem>
-//           <Box borderWidth="1px" borderRadius="lg" overflow="hidden" shadow="sm" bg="white">
-//             <Box p="6">
-//               <Heading as="h2" size="lg" mb={2} textAlign={"Center"}>Chairs</Heading>
-//               <Button as={Link} to="/chairs" colorScheme="teal" mt={4} w="100%">
-//                 View Chairs
-//               </Button>
-//             </Box>
-//           </Box>
-//         </GridItem>
-//       </Grid>
-//     </Box>
-//     <Footer />
-//     </>
-//   );
-// };
-
-// export default Homepage;
 
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Box, Grid, GridItem, Heading, Button, Image } from '@chakra-ui/react'; // Adjust Chakra UI components as needed
+import { Box, Grid, GridItem, Heading, Button, Image } from '@chakra-ui/react'; 
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import Footer from './Footer';
 import Navbar from './Navbar';
 
 const Homepage = () => {
-  // Mock data for carousel images (you can replace this with actual data)
+  
   const carouselImages = [
     { id: 1, imageUrl: "https://www.godrejinterio.com/imagestore/B2C/EspotImages/Images/Banners/HI01_MGSL_HSSACCS_D_310524.jpg", altText: 'Carousel Image 1' },
     { id: 2, imageUrl: "https://www.godrejinterio.com/imagestore/B2C/EspotImages/Images/Banners/HI03_SL_HSSACCS_D_310524.jpg", altText: 'Carousel Image 2' },
@@ -110,7 +18,6 @@ const Homepage = () => {
     { id: 4, imageUrl: "https://www.godrejinterio.com/imagestore/B2C/EspotImages/Images/Banners/HI02_B_HSSACCS_D_310524.jpg", altText: 'Carousel Image 4' },
   ];
 
-  // Image for chair card
   const chairImage = "https://via.placeholder.com/300x200";
 
   return (
