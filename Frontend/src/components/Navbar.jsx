@@ -214,14 +214,14 @@ const linkStyle = {
 };
 
 const subMenuStyle = {
-  // width:"300px",
+
   position: 'absolute',
   backgroundColor: 'wheat',
   listStyleType: 'none',
   padding: '10px',
   margin: '0',
   display: 'block',
-  zIndex: 1, // Ensure the submenu appears on top
+  zIndex: 1,
 };
 
 const subLinkStyle = {
