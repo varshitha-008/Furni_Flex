@@ -1,15 +1,18 @@
-import React from 'react'
-import { Flex } from '@chakra-ui/react'
-import Sidebar from './components/Admin/Sidebar/Sidebar'
+// App.jsx
+import React from 'react';
+import { ChakraProvider } from '@chakra-ui/react';
+import Admin from './components/Admin/Admin';
 
 
 
 const App = () => {
   return (
-    <Flex>
-        <Sidebar/>
-    </Flex>
-  )
-}
+    <ChakraProvider>
+      <Admin />
+      
+      
+    </ChakraProvider>
+  );
+};
 
-export default App
+export default App;
