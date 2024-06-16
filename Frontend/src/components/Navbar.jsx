@@ -1,18 +1,18 @@
 import React, { useState, useEffect } from 'react';
 import { Routes, Route, Link, useNavigate } from 'react-router-dom';
-import { Box, Flex, Button } from '@chakra-ui/react';
+import { Box, Flex, Button, IconButton, useBreakpointValue, VStack, Menu, MenuButton, MenuList, MenuItem } from '@chakra-ui/react';
+import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
 import Home from './Home';
 import Chairs from '../categories/Chairs';
 import Curtain from '../categories/Curtain';
 import Sofa from '../categories/Sofa';
 import Wardropes from '../categories/Wardropes';
-
 import Tables from '../categories/Tables';
 import Login from './Login';
 import SignUp from './SignUp';
 import logo from "../assets/Furni_FLex_logo.png";
 import searchIcon from '../assets/search_icon.png';
-import '../styles/navbar.css';
+import './../Styles/navbar.css';
 import { FaCartShopping, FaHeart } from "react-icons/fa6";
 import loginProfile from '../assets/loginprofile.png';
 
@@ -21,9 +21,9 @@ function Navbar() {
   const [showSignUpForm, setShowSignUpForm] = useState(false);
   const [user, setUser] = useState(null);
   const [data, setData] = useState({});
-  
   const [subcategories, setSubcategories] = useState([]);
   const [hoveredCategory, setHoveredCategory] = useState(null);
+  const [isOpen, setIsOpen] = useState(false);
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -53,13 +53,13 @@ function Navbar() {
 
   const toggleLoginForm = () => {
     setShowLoginForm(!showLoginForm);
-    setShowSignUpForm(false); 
+    setShowSignUpForm(false);
     navigate('/login');
   };
 
   const toggleSignUpForm = () => {
     setShowSignUpForm(!showSignUpForm);
-    setShowLoginForm(false); 
+    setShowLoginForm(false);
     navigate('/signup');
   };
 
@@ -75,12 +75,7 @@ function Navbar() {
     navigate('/');
   };
 
-  const handleSearch = (event) => {
-    if (event.key === 'Enter') {
-      const query = event.target.value;
-      navigate(`/search?query=${query}`);
-    }
-  };
+ 
 
   const handleMouseEnter = (category) => {
     setHoveredCategory(category);
@@ -95,13 +90,23 @@ function Navbar() {
     setSubcategories([]);
   };
 
-  return (
-    <Box w='100%' p={4} color='white'>
-      <div className='navbar'>
-        <Flex justifyContent="space-between" alignItems="center" px={8} py={4} gap={10}>
-          <img className='navbar-logo' src={logo} alt="logo" style={{ width: '150px' }} />
+  const handleToggle = () => setIsOpen(!isOpen);
 
-          <nav className='navbar-router'>
+  const displayType = useBreakpointValue({ base: 'none', md: 'flex' });
+  const mobileDisplayType = useBreakpointValue({ base: 'flex', md: 'none' });
+
+  return (
+    <Box w='100%' p={4} color='white' >
+      <div className='navbar'>
+        <Flex justifyContent="space-between" alignItems="center" px={8} py={4} gap={10} >
+          <img className='navbar-logo' src={logo} alt="logo" style={{ width: '150px' }} />
+          <IconButton
+            display={mobileDisplayType}
+            aria-label="Open Menu"
+            icon={isOpen ? <CloseIcon /> : <HamburgerIcon />}
+            onClick={handleToggle}
+          />
+          <Flex as="nav" display={displayType} className='navbar-router'>
             <ul style={{ listStyleType: 'none', display: 'flex', alignItems: 'center' }}>
               <li>
                 <Link to="/" style={linkStyle} onClick={() => navigateAndCloseForms('/')}>Home</Link>
@@ -157,36 +162,69 @@ function Navbar() {
                 )}
               </li>
             </ul>
-          </nav>
-
-          <div className='search-box'>
-            <input type="text" placeholder='Search' onKeyDown={handleSearch} />
-            <img src={searchIcon} alt="Search Icon"/>
-          </div>
-
-          {user ? (
-            <li  style={linkStyle}>
-              <Button bg='black' style={{display:"inline-block",border:"none"}} variant="link" onClick={handleLogout} color="black" _hover={{ textDecoration: 'underline' }}>
-              <img width='40px' src={loginProfile} alt="" />
-              <p style={{color:"white", marginBottom:"-10px"}}>logout</p>
-                </Button></li>
-          ) : (
-            <>
-              <li style={linkStyle}>
-                <Button bg='black' style={{display:"inline-block",border:"none"}} variant="link" onClick={toggleLoginForm} color="black" _hover={{ textDecoration: 'underline' }}>
+          </Flex>
+        
+          <Flex display={displayType} alignItems="center">
+            {user ? (
+              <Menu>
+                <MenuButton as={Button} bg='black' style={{ display: "inline-block", border: "none" }} color="white" _hover={{ textDecoration: 'underline' }}>
                   <img width='40px' src={loginProfile} alt="" />
-                  <p style={{color:"white", marginBottom:"-10px"}}>login</p>
-                </Button>
-              </li>
-            </>
-          )}
-          <div className='navbar-icons'>
-            <FaCartShopping />
-            <FaHeart />
-          </div>
+                  <p style={{ color: "white", marginBottom: "-10px" }}>{user.username}</p>
+                </MenuButton>
+                <MenuList bg="black">
+                  <MenuItem onClick={handleLogout} bg="black">Logout</MenuItem>
+                </MenuList>
+              </Menu>
+            ) : (
+              <>
+                <li style={linkStyle}>
+                  <Button bg='black' style={{ display: "inline-block", border: "none" }} variant="link" onClick={toggleLoginForm} color="black" _hover={{ textDecoration: 'underline' }}>
+                    <img width='40px' src={loginProfile} alt="" />
+                    <p style={{ color: "white", marginBottom: "-10px" }}>login</p>
+                  </Button>
+                </li>
+              </>
+            )}
+            <Box display={displayType} className='navbar-icons'>
+              <FaCartShopping />
+              <FaHeart />
+            </Box>
+          </Flex>
         </Flex>
+        {isOpen && (
+          <VStack
+            as="nav"
+            spacing={4}
+            display={mobileDisplayType}
+            alignItems="start"
+            bg="gray.700"
+            p={4}
+            position="absolute"
+            top="100%"
+            left="0"
+            width="100%"
+          >
+            <Link to="/" style={linkStyle} onClick={() => navigateAndCloseForms('/')}>Home</Link>
+            <Link to="/chairs" style={linkStyle} onClick={() => navigateAndCloseForms('/chairs')}>Chairs</Link>
+            <Link to="/curtain" style={linkStyle} onClick={() => navigateAndCloseForms('/curtain')}>Curtain</Link>
+            <Link to="/sofa" style={linkStyle} onClick={() => navigateAndCloseForms('/sofa')}>Sofa</Link>
+            <Link to="/tables" style={linkStyle} onClick={() => navigateAndCloseForms('/tables')}>Tables</Link>
+            <Link to="/wardrobes" style={linkStyle} onClick={() => navigateAndCloseForms('/wardropes')}>Wardrobes</Link>
+           
+            {user ? (
+              <Button bg='black' style={{ display: "inline-block", border: "none" }} variant="link" onClick={handleLogout} color="white" _hover={{ textDecoration: 'underline' }} >
+                <img width='40px' src={loginProfile} alt=""  />
+                <p style={{ color: "white", marginBottom: "-10px" }}>logout</p>
+              </Button>
+            ) : (
+              <Button bg='black' style={{ display: "inline-block", border: "none" }} variant="link" onClick={toggleLoginForm} color="white" _hover={{ textDecoration: 'underline' }}>
+                <img width='40px' src={loginProfile} alt="" />
+                <p style={{ color: "white", marginBottom: "-10px" }}>login</p>
+              </Button>
+            )}
+          </VStack>
+        )}
       </div>
-
       <Box mt={4} px={8}>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -194,7 +232,7 @@ function Navbar() {
           <Route path="/curtain" element={<Curtain />} />
           <Route path="/sofa" element={<Sofa />} />
           <Route path="/tables" element={<Tables />} />
-          <Route path="/wardropes" element={<Wardropes />} />
+          <Route path="/wardrobes" element={<Wardropes />} />
           <Route path="/login" element={<Login setUser={setUser} />} />
           <Route path="/signup" element={<SignUp setUser={setUser} />} />
         </Routes>
@@ -207,14 +245,12 @@ const linkStyle = {
   color: 'white',
   textDecoration: 'none',
   marginRight: '10px',
-  
   _hover: {
     textDecoration: 'underline',
   },
 };
 
 const subMenuStyle = {
-
   position: 'absolute',
   backgroundColor: 'wheat',
   listStyleType: 'none',

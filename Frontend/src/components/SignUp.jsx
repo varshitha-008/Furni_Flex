@@ -17,7 +17,7 @@ import {
   Link
 } from "@chakra-ui/react";
 import { FaUserAlt, FaLock } from "react-icons/fa";
-import "../styles/signup.css"
+import "./../Styles/signup.css"
 
 const CFaUserAlt = chakra(FaUserAlt);
 const CFaLock = chakra(FaLock);
