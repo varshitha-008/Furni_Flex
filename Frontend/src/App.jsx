@@ -1,9 +1,57 @@
+// import React from 'react';
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+// import Chairs from './components/Chairs';
+// import Cart from './components/Cart';
+// import Payment from './components/Payment'; 
+// import Homepage from './components/Homepage'; 
+
+// const App = () => {
+//   return (
+//     <Router>
+//       <Routes>
+//         <Route path="/" element={<Homepage />} />
+//         <Route path="/chairs" element={<Chairs />} />
+//         <Route path="/cart" element={<Cart />} />
+//         <Route path="/payment" element={<Payment />} />
+//       </Routes>
+//     </Router>
+//   );
+// };
+
+// export default App;
+
+
+// import React from 'react';
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+// import Chairs from './components/Chairs';
+// import Cart from './components/Cart';
+// import Payment from './components/Payment'; 
+// import Homepage from './components/Homepage'; 
+
+// const App = () => {
+//   return (
+//     <Router>
+//       <Routes>
+//         <Route path="/" element={<Homepage />} />
+//         <Route path="/chairs" element={<Chairs />} />
+//         <Route path="/cart" element={<Cart />} />
+//         <Route path="/payment" element={<Payment />} />
+//       </Routes>
+//     </Router>
+//   );
+// };
+
+// export default App;
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Chairs from './components/Chairs';
 import Cart from './components/Cart';
-import Payment from './components/Payment'; // Import the Payment component
-import Homepage from './components/Homepage'; // Import the Homepage component
+import Payment from './components/Payment'; 
+import Homepage from './components/Homepage'; 
+import Sofas from './components/Sofas'; // Import the Sofas component
+import Tables from './components/Tables';
+import Wardrobes from './components/Wardrobes';
+import Curtains from './components/Curtains';
 
 const App = () => {
   return (
@@ -13,12 +61,20 @@ const App = () => {
         <Route path="/chairs" element={<Chairs />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/payment" element={<Payment />} />
+        <Route path="/sofas" element={<Sofas />} /> {/* Add the Sofas route */}
+        <Route path="/tables" element={<Tables />} /> 
+        <Route path="/curtains" element={<Curtains/>} /> 
+         <Route path="/wardrobes" element={<Wardrobes />} /> 
       </Routes>
     </Router>
   );
 };
 
 export default App;
+
+
+
+
 
 
 //  import React from 'react';

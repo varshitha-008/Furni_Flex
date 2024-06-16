@@ -1,9 +1,7 @@
 
-
-
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Box, Grid, GridItem, Heading, Button, Image } from '@chakra-ui/react'; 
+import { Box, Grid, GridItem, Heading, Button, Image } from '@chakra-ui/react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import Footer from './Footer';
@@ -17,8 +15,6 @@ const Homepage = () => {
     { id: 3, imageUrl: "https://www.godrejinterio.com/imagestore/B2C/EspotImages/Images/Banners/HI05_MK_HSSACCS_D_310524.jpg", altText: 'Carousel Image 3' },
     { id: 4, imageUrl: "https://www.godrejinterio.com/imagestore/B2C/EspotImages/Images/Banners/HI02_B_HSSACCS_D_310524.jpg", altText: 'Carousel Image 4' },
   ];
-
-  const chairImage = "https://via.placeholder.com/300x200";
 
   return (
     <>
@@ -46,6 +42,51 @@ const Homepage = () => {
               </Box>
             </Box>
           </GridItem>
+          <GridItem>
+            <Box borderWidth="1px" borderRadius="lg" overflow="hidden" shadow="sm" bg="white">
+              <Image src={"https://www.at-home.co.in/cdn/shop/products/Somerville3str_45.jpg?v=1657281898"} alt="Sofa" h="200px" w="100%" objectFit="cover" />
+              <Box p="6">
+                <Heading as="h2" size="lg" mb={2} textAlign="center">Sofas</Heading>
+                <Button as={Link} to="/sofas" colorScheme="teal" mt={4} w="100%">
+                  View Sofas
+                </Button>
+              </Box>
+            </Box>
+          </GridItem>
+          <GridItem>
+            <Box borderWidth="1px" borderRadius="lg" overflow="hidden" shadow="sm" bg="white">
+              <Image src={"https://ii1.pepperfry.com/media/catalog/product/d/a/494x544/daist-coffee-table-in-exotic-teak-finish-by-a-globia-creations-daist-coffee-table-in-exotic-teak-fin-wspcms.jpg"} alt="Tables" h="200px" w="100%" objectFit="cover" />
+              <Box p="6">
+                <Heading as="h2" size="lg" mb={2} textAlign="center">Tables</Heading>
+                <Button as={Link} to="/tables" colorScheme="teal" mt={4} w="100%">
+                  View Tables
+                </Button>
+              </Box>
+            </Box>
+          </GridItem>
+          <GridItem>
+            <Box borderWidth="1px" borderRadius="lg" overflow="hidden" shadow="sm" bg="white">
+              <Image src={"https://m.media-amazon.com/images/I/71ign7Zp18L._AC_UF894,1000_QL80_.jpg"} alt="Curtains" h="200px" w="100%" objectFit="cover" />
+              <Box p="6">
+                <Heading as="h2" size="lg" mb={2} textAlign="center">Curtains</Heading>
+                <Button as={Link} to="/curtains" colorScheme="teal" mt={4} w="100%">
+                  View Curtains
+                </Button>
+              </Box>
+            </Box>
+          </GridItem>
+          <GridItem>
+            <Box borderWidth="1px" borderRadius="lg" overflow="hidden" shadow="sm" bg="white">
+              <Image src={"https://spacewood.in/wp-content/uploads/2017/08/swing.jpg"} alt="Wardrobes" h="200px" w="100%" objectFit="cover" />
+              <Box p="6">
+                <Heading as="h2" size="lg" mb={2} textAlign="center">Wardrobes</Heading>
+                <Button as={Link} to="/wardrobes" colorScheme="teal" mt={4} w="100%">
+                  View Wardrobes
+                </Button>
+              </Box>
+            </Box>
+          </GridItem>
+          
         </Grid>
       </Box>
       <Footer />

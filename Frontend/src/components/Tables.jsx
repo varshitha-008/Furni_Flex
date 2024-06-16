@@ -1,15 +1,12 @@
-
-
-
 import React, { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { Grid, GridItem, Box, Image, Badge, Text, Select, VStack, Flex, Heading, Button } from '@chakra-ui/react';
 import InfiniteScroll from 'react-infinite-scroll-component';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
-import { setProducts, addToCart } from '../store'; 
+import { setProducts, addToCart } from '../store';
 
-const Chairs = () => {
+const Tables = () => {
   const dispatch = useDispatch();
   const products = useSelector((state) => state.products);
   const searchQuery = useSelector((state) => state.searchQuery);
@@ -24,7 +21,7 @@ const Chairs = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const response = await fetch('https://furni-flex-4-yx74.onrender.com/chairs');
+        const response = await fetch('https://furni-flex-4-yx74.onrender.com/tables');
         const data = await response.json();
         dispatch(setProducts(data));
       } catch (error) {
@@ -103,10 +100,10 @@ const Chairs = () => {
                 borderColor="gray.300"
                 shadow="sm"
               >
-                <option value="visitor chair">Visitor Chair</option>
-                <option value="study chair">Study Chair</option>
-                <option value="computer chair">Computer Chair</option>
-                <option value="office chair">Office Chair</option>
+                <option value="glass top coffee tables">Glass top coffee tables</option>
+                <option value="sintered top coffee tables">Sintered top coffee tables</option>
+                <option value="marble coffee tables">Marble coffee tables</option>
+                <option value="glass coffee tables">Glass coffee tables</option>
               </Select>
             </Box>
             <Box w="100%">
@@ -139,13 +136,13 @@ const Chairs = () => {
         </Box>
 
         <Box w={{ base: '100%', md: '80%' }} p={4}>
-          <Heading as="h2" size="lg" mb={6}>Chairs</Heading>
+          <Heading as="h2" size="lg" mb={6}>Tables</Heading>
           <InfiniteScroll
             dataLength={displayedProducts.length}
             next={fetchMoreData}
             hasMore={hasMore}
             loader={<h4>Loading...</h4>}
-            endMessage={<p style={{ textAlign: 'center' }}>No more chairs to display</p>}
+            endMessage={<p style={{ textAlign: 'center' }}>No more tables to display</p>}
           >
             <Grid templateColumns="repeat(auto-fill, minmax(250px, 1fr))" gap={6}>
               {displayedProducts.map((product) => (
@@ -172,10 +169,10 @@ const Chairs = () => {
                         mt="2"
                         colorScheme="teal"
                         onClick={() => handleAddToCart(product)}
-                        disabled={addedToCartMap[product.id]} 
+                        disabled={addedToCartMap[product.id]}
                       >
                         {addedToCartMap[product.id] ? 'Added to Cart' : 'Add to Cart'}
-                      </Button> 
+                      </Button>
                     </Box>
                   </Box>
                 </GridItem>
@@ -189,6 +186,4 @@ const Chairs = () => {
   );
 };
 
-export default Chairs;
-
-
+export default Tables;
