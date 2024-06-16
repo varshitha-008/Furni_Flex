@@ -43,7 +43,7 @@ const Sidebar = () => {
           border="none"
           color={colorMode === 'light' ? 'black' : 'white'}
         />
-        <Navbar navSize={navSize} icon={FiHome} title="Dashboard" discription="" to="/" />
+        <Navbar navSize={navSize} icon={FiHome} title="Dashboard" discription="" to="/dashboard" />
         <Navbar navSize={navSize} icon={FiUsers} title="User" discription="" to="/user" />
         <Navbar navSize={navSize} icon={FiDatabase} title="Products" discription="" to="/products" />
         <Navbar navSize={navSize} icon={FiBarChart} title="Bar-chart" discription="" to="/bar-chart" />

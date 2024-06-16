@@ -1,21 +1,18 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Flex, IconButton, useColorMode } from '@chakra-ui/react';
+import { Flex, IconButton, useColorMode, useColorModePreference } from '@chakra-ui/react';
 import Sidebar from './Sidebar/Sidebar';
 import { MoonIcon, SunIcon } from '@chakra-ui/icons';
-import AdminDashboard from './Dashboard/AdminDashboard';
-import Users from './Dashboard/Users';
-import Product from './Dashboard/Product';
-import Barchart from './Dashboard/BarChart';
-import Contact from './Dashboard/Contact';
-import Piee from './Dashboard/Pie';
-import Coupon from './Dashboard/Coupon';
+
+import { useNavigate } from 'react-router-dom';
+
 
 const Admin = () => {
   const { colorMode, toggleColorMode } = useColorMode();
+  const navigate= useNavigate();
 
   return (
-    <Router>
+  
       <Flex>
         <Sidebar />
         <Flex flex="1" p="4" flexDirection="column">
@@ -27,18 +24,16 @@ const Admin = () => {
               variant="ghost"
             />
           </Flex>
-          <Routes>
-            <Route path="/" element={<AdminDashboard />} />
-            <Route path="/user" element={<Users />} />
-            <Route path="/products" element={<Product />} />
-            <Route path="/bar-chart" element={<Barchart />} />
-            <Route path="/pie-chart" element={<Piee />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/coupon" element={<Coupon />} />
-          </Routes>
+          <button onClick={() => navigate('/dashboard')}>Admin Dashboard</button>
+      <button onClick={() => navigate('/user')}>Users</button>
+      <button onClick={() => navigate('/products')}>Products</button>
+      <button onClick={() => navigate('/bar-chart')}>Bar Chart</button>
+      <button onClick={() => navigate('/pie-chart')}>Pie Chart</button>
+      <button onClick={() => navigate('/contact')}>Contact</button>
+      <button onClick={() => navigate('/coupon')}>Coupon</button>
         </Flex>
       </Flex>
-    </Router>
+    
   );
 };
 
