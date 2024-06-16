@@ -19,7 +19,7 @@ import {
   AvatarBadge,
 } from "@chakra-ui/react";
 import { FaUserAlt, FaLock } from "react-icons/fa";
-import '../styles/login.css';
+import './../Styles/login.css';
 
 const CFaUserAlt = chakra(FaUserAlt);
 const CFaLock = chakra(FaLock);
