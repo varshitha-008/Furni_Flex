@@ -3,7 +3,7 @@
 
 ## Introduction
 
-Furni-Flex isfurniture brand in both home and institutional segments. Furni-Flex is an e-commerce website that sells furniture realted things like chairs , sofa ,tables and many more.You can buy any  furniture product from the website
+Furni-Flex is furniture brand in both home and institutional segments. Furni-Flex is an e-commerce website that sells furniture realted things like chairs , sofa ,tables and many more.You can buy any  furniture product from the website.
 
 ## Project Type
 
