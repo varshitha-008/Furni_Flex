@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
+import { Link } from 'react-router-dom';
 import { Grid, GridItem, Box, Image, Badge, Text, Select, VStack, Flex, Heading, Button } from '@chakra-ui/react';
 import InfiniteScroll from 'react-infinite-scroll-component';
 import Footer from '../components/Footer';
@@ -85,9 +86,8 @@ const Tables = () => {
 
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <Flex direction={{ base: 'column', md: 'row' }} p={4}>
-        {/* Sidebar */}
         <Box w={{ base: '100%', md: '20%' }} p={4} bg="gray.50" borderRadius="lg" shadow="md" mb={{ base: 4, md: 0 }}>
           <Heading as="h3" size="md" mb={4}>Filter & Sort</Heading>
           <VStack spacing={4} align="flex-start">
@@ -148,7 +148,9 @@ const Tables = () => {
               {displayedProducts.map((product) => (
                 <GridItem key={product.id}>
                   <Box borderWidth="1px" borderRadius="lg" overflow="hidden" shadow="sm" bg="white">
-                    <Image src={product.img} alt={product.title} h="200px" w="100%" objectFit="cover" />
+                    <Link to={`/product/${product.id}`}>
+                      <Image src={product.img} alt={product.title} h="200px" w="100%" objectFit="cover" />
+                    </Link>
                     <Box p="6">
                       <Box d="flex" alignItems="baseline">
                         <Badge borderRadius="full" px="2" colorScheme="teal">
@@ -187,3 +189,16 @@ const Tables = () => {
 };
 
 export default Tables;
+
+
+
+
+
+
+
+
+
+
+
+
+

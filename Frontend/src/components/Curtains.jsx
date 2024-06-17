@@ -1,5 +1,10 @@
+
+
+
+
 import React, { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
+import { Link } from 'react-router-dom';
 import { Grid, GridItem, Box, Image, Badge, Text, Select, VStack, Flex, Heading, Button } from '@chakra-ui/react';
 import InfiniteScroll from 'react-infinite-scroll-component';
 import Footer from '../components/Footer';
@@ -36,7 +41,7 @@ const Curtains = () => {
     let updatedProducts = [...products];
 
     if (subcategory) {
-      updatedProducts = updatedProducts.filter(product => product.subcategory === subcategory);
+      updatedProducts = updatedProducts.filter((product) => product.subcategory.toLowerCase() === subcategory.toLowerCase());
     }
 
     if (sortOption === 'priceAsc') {
@@ -50,7 +55,7 @@ const Curtains = () => {
     }
 
     if (searchQuery) {
-      updatedProducts = updatedProducts.filter(product =>
+      updatedProducts = updatedProducts.filter((product) =>
         product.title.toLowerCase().includes(searchQuery.toLowerCase())
       );
     }
@@ -77,7 +82,7 @@ const Curtains = () => {
 
   const handleAddToCart = (product) => {
     dispatch(addToCart(product));
-    setAddedToCartMap(prevState => ({
+    setAddedToCartMap((prevState) => ({
       ...prevState,
       [product.id]: true,
     }));
@@ -85,7 +90,7 @@ const Curtains = () => {
 
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <Flex direction={{ base: 'column', md: 'row' }} p={4}>
         {/* Sidebar */}
         <Box w={{ base: '100%', md: '20%' }} p={4} bg="gray.50" borderRadius="lg" shadow="md" mb={{ base: 4, md: 0 }}>
@@ -101,7 +106,10 @@ const Curtains = () => {
                 shadow="sm"
               >
                 <option value="blackout solids">Blackout solids</option>
-                
+                <option value="sheer curtains">Sheer curtains</option>
+                <option value="printed curtains">Printed curtains</option>
+                <option value="thermal curtains">Thermal curtains</option>
+                <option value="grommet curtains">Grommet curtains</option>
               </Select>
             </Box>
             <Box w="100%">
@@ -146,7 +154,9 @@ const Curtains = () => {
               {displayedProducts.map((product) => (
                 <GridItem key={product.id}>
                   <Box borderWidth="1px" borderRadius="lg" overflow="hidden" shadow="sm" bg="white">
-                    <Image src={product.img} alt={product.title} h="200px" w="100%" objectFit="cover" />
+                    <Link to={`/product/${product.id}`}>
+                      <Image src={product.img} alt={product.title} h="200px" w="100%" objectFit="cover" />
+                    </Link>
                     <Box p="6">
                       <Box d="flex" alignItems="baseline">
                         <Badge borderRadius="full" px="2" colorScheme="teal">

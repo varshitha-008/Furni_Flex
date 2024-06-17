@@ -1,3 +1,4 @@
+
 // import React from 'react';
 // import { useSelector, useDispatch } from 'react-redux';
 // import { Box, Image, Text, Button, Grid, GridItem, Heading } from '@chakra-ui/react';
@@ -11,20 +12,17 @@
 //   const navigate = useNavigate(); 
 //   const cart = useSelector((state) => state.cart);
 
+//   const totalPrice = cart.reduce((acc, item) => acc + item.price, 0);
 
-//   const totalPrice = cart.reduce((acc, chair) => acc + chair.price, 0);
-
-//   const handleRemoveFromCart = (chairId) => {
-//     dispatch(removeFromCart(chairId));
+//   const handleRemoveFromCart = (itemId) => {
+//     dispatch(removeFromCart(itemId));
 //   };
 
 //   const handleCheckout = () => {
-
 //     navigate('/payment');
 //   };
 
 //   const handleClearCart = () => {
-   
 //     dispatch(clearCart());
 //   };
 
@@ -38,16 +36,16 @@
 //         ) : (
 //           <>
 //             <Grid templateColumns="repeat(auto-fill, minmax(250px, 1fr))" gap={6}>
-//               {cart.map((chair) => (
-//                 <GridItem key={chair.id}>
+//               {cart.map((item) => (
+//                 <GridItem key={item.id}>
 //                   <Box borderWidth="1px" borderRadius="lg" overflow="hidden" shadow="sm" bg="white">
-//                     <Image src={chair.img} alt={chair.title} h="200px" w="100%" objectFit="cover" />
+//                     <Image src={item.img} alt={item.title} h="200px" w="100%" objectFit="cover" />
 //                     <Box p="6">
 //                       <Text mt="1" fontWeight="semibold" fontSize="lg" lineHeight="tight">
-//                         {chair.title}
+//                         {item.title}
 //                       </Text>
-//                       <Text mt="2">₹ {chair.price}</Text>
-//                       <Button mt="2" colorScheme="red" onClick={() => handleRemoveFromCart(chair.id)}>Remove from Cart</Button>
+//                       <Text mt="2">₹ {item.price}</Text>
+//                       <Button mt="2" colorScheme="red" onClick={() => handleRemoveFromCart(item.id)}>Remove from Cart</Button>
 //                     </Box>
 //                   </Box>
 //                 </GridItem>
@@ -63,10 +61,12 @@
 //       </Box>
 //       <Footer />
 //     </>
+    
 //   );
 // };
 
 // export default Cart;
+
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { Box, Image, Text, Button, Grid, GridItem, Heading } from '@chakra-ui/react';
@@ -96,8 +96,8 @@ const Cart = () => {
 
   return (
     <>
-      <Navbar />
-      <Box p={4}>
+      {/* <Navbar /> */}
+      <Box p={4} minHeight="calc(100vh - 80px)">
         <Heading as="h2" size="lg" mb={6}>Cart</Heading>
         {cart.length === 0 ? (
           <Text>Your cart is empty.</Text>

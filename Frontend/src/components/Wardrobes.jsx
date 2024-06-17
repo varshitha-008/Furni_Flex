@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
+import { Link } from 'react-router-dom';
 import { Grid, GridItem, Box, Image, Badge, Text, Select, VStack, Flex, Heading, Button } from '@chakra-ui/react';
 import InfiniteScroll from 'react-infinite-scroll-component';
 import Footer from '../components/Footer';
@@ -85,7 +86,7 @@ const Wardrobes = () => {
 
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <Flex direction={{ base: 'column', md: 'row' }} p={4}>
         {/* Sidebar */}
         <Box w={{ base: '100%', md: '20%' }} p={4} bg="gray.50" borderRadius="lg" shadow="md" mb={{ base: 4, md: 0 }}>
@@ -138,19 +139,21 @@ const Wardrobes = () => {
         </Box>
 
         <Box w={{ base: '100%', md: '80%' }} p={4}>
-          <Heading as="h2" size="lg" mb={6}>Curtains</Heading>
+          <Heading as="h2" size="lg" mb={6}>Wardrobes</Heading>
           <InfiniteScroll
             dataLength={displayedProducts.length}
             next={fetchMoreData}
             hasMore={hasMore}
             loader={<h4>Loading...</h4>}
-            endMessage={<p style={{ textAlign: 'center' }}>No more curtains to display</p>}
+            endMessage={<p style={{ textAlign: 'center' }}>No more wardrobes to display</p>}
           >
             <Grid templateColumns="repeat(auto-fill, minmax(250px, 1fr))" gap={6}>
               {displayedProducts.map((product) => (
                 <GridItem key={product.id}>
                   <Box borderWidth="1px" borderRadius="lg" overflow="hidden" shadow="sm" bg="white">
-                    <Image src={product.img} alt={product.title} h="200px" w="100%" objectFit="cover" />
+                    <Link to={`/product/${product.id}`}>
+                      <Image src={product.img} alt={product.title} h="200px" w="100%" objectFit="cover" />
+                    </Link>
                     <Box p="6">
                       <Box d="flex" alignItems="baseline">
                         <Badge borderRadius="full" px="2" colorScheme="teal">

@@ -18,7 +18,7 @@ const Homepage = () => {
 
   return (
     <>
-      <Navbar />
+    
       <Box p={4}>
         {/* Carousel */}
         <Carousel showThumbs={false} showStatus={false} infiniteLoop autoPlay style={{ maxWidth: '800px', margin: '0 auto' }}>
