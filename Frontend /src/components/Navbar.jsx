@@ -154,7 +154,11 @@ const Navbar = () => {
               <Avatar size="sm" name="Profile" />
             </Button>
           )}
+            {user && user.username ==="Admin" && <Button as={Link} ml={8} to="/dashboard" variant="link" color="white" mx={4} fontFamily="sans-serif">
+             Admin
+            </Button>}
         </Flex>
+      
       </Flex>
     </Box>
   );
