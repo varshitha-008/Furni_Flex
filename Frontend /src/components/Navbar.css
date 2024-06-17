@@ -1,0 +1,34 @@
+
+.navbar-item {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .navbar-item .dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    padding: 10px;
+    border-radius: 4px;
+    flex-direction: column;
+  }
+  
+  .navbar-item:hover .dropdown {
+    display: flex;
+  }
+  
+  .dropdown-item {
+    padding: 10px;
+    white-space: nowrap;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f0f0f0;
+  }
+  
