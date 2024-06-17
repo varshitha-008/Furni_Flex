@@ -1,9 +1,9 @@
 # Furni_Flex
-# TaptiBnb
+
 
 ## Introduction
 
-TaptiBnb: Your go-to platform for unique accommodations worldwide. Inspired by Airbnb, TaptiBnb offers seamless booking for diverse lodging options, from vacation rentals to boutique hotels. With user-friendly features, TaptiBnb redefines travel, ensuring memorable stays wherever you go. Join us and explore the world like never before.
+Furni-Flex isfurniture brand in both home and institutional segments. Furni-Flex is an e-commerce website that sells furniture realted things like chairs , sofa ,tables and many more.You can buy any  furniture product from the website
 
 ## Project Type
 
@@ -13,9 +13,9 @@ The project is a primarily front-end project which utilizes a mock server to sim
 
 ## Deplolyed App
 
-Frontend: https://taptibnb.netlify.app/
+Frontend: https://furniflexrct.netlify.app/
 
-Backend: https://tapti-recursion-010-v93f.onrender.com/
+Backend: https://furni-flex-6.onrender.com/
 
 ## Directory Structure
 
