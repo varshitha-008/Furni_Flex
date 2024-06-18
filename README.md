@@ -17,6 +17,41 @@ Frontend: https://furniflexrct.netlify.app/
 
 Backend: https://furni-flex-6.onrender.com/
 
+# Project Title
+
+## Features
+
+- Responsive and dynamic website
+- User authentication
+- Admin Dashboard and CRUD Operations
+- Add property to favorites
+- Search and filter property using search param
+- Private routes
+
+## Design Decisions or Assumptions
+
+The project is a clone of the popular rental booking website Airbnb. To facilitate the proper design and flow of our project following assumptions were made :
+
+- One admin for all CRUD operations instead of multiple admins and super admin
+- One wishlist per user
+- User must be logged in to access the wishlist or add property to the wishlist
+- Admin user does not need to access the main website and is redirected to the admin dashboard
+
+## Installation & Getting started
+
+To run the frontend website, enter the following commands in your terminal:
+
+```sh
+# Move into the FrontEnd directory
+cd FrontEnd/
+
+# Install all dependencies
+npm install
+
+# Run the dev server
+npm run dev
+
+
 ## Directory Structure
 
 ```
