@@ -65,5 +65,5 @@ Backend: https://furni-flex-6.onrender.com/
 
 A detailed walkthrough of all the features of our project can be found here:
 
-https:https://www.youtube.com/watch?v=-jdGpFiEB0g
+https : https://www.youtube.com/watch?v=-jdGpFiEB0g
 
