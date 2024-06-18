@@ -42,13 +42,13 @@ The project is a clone of the popular rental booking website Airbnb. To facilita
 To run the frontend website, enter the following commands in your terminal:
 
 
-# Move into the FrontEnd directory
+## Move into the FrontEnd directory
 cd FrontEnd/
 
-# Install all dependencies
+## Install all dependencies
 npm install
 
-# Run the dev server
+## Run the dev server
 npm run dev
 
 
