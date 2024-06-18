@@ -83,6 +83,24 @@ https : https://www.youtube.com/watch?v=-jdGpFiEB0g
 
 ![image](https://github.com/varshitha-008/Furni_Flex/assets/54645464/132ed8bf-10e2-4f56-86fc-4d6776675f92)
 
+![image](https://github.com/varshitha-008/Furni_Flex/assets/54645464/817e0928-a564-4de0-a734-c1c421dcac10)
+
+![image](https://github.com/varshitha-008/Furni_Flex/assets/54645464/a38e26b8-929d-45c4-ab9e-747f5c2fc05e)
+
+![image](https://github.com/varshitha-008/Furni_Flex/assets/54645464/414593d0-3d45-4c20-ac88-205238a315aa)
+
+![image](https://github.com/varshitha-008/Furni_Flex/assets/54645464/67bdc67e-df27-4d5b-9ec2-5311204b2858)
+
+![image](https://github.com/varshitha-008/Furni_Flex/assets/54645464/dddbf555-0f7a-46be-93c8-93722e63e860)
+
+![image](https://github.com/varshitha-008/Furni_Flex/assets/54645464/30d3ce26-4932-4666-9631-cdc01fe1e8cf)
+
+![image](https://github.com/varshitha-008/Furni_Flex/assets/54645464/820c8e37-6886-420f-bbb1-22a64037dca4)
+
+
+
+
+
 
 
 
