@@ -99,6 +99,15 @@ https : https://www.youtube.com/watch?v=-jdGpFiEB0g
 
 ![image](https://github.com/varshitha-008/Furni_Flex/assets/54645464/1e2a27d9-122d-4343-966a-1b9c2256cfe3)
 
+![image](https://github.com/varshitha-008/Furni_Flex/assets/54645464/548199c4-9f0d-493d-846f-fdeeca0fa1cd)
+
+![image](https://github.com/varshitha-008/Furni_Flex/assets/54645464/29e2c4de-6604-45c9-9975-73cabd8a5401)
+
+![image](https://github.com/varshitha-008/Furni_Flex/assets/54645464/187659dd-7c00-47d1-bd79-1455a74b25fd)
+
+
+
+
 
 
 
