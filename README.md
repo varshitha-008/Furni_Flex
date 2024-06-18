@@ -95,7 +95,6 @@ https : https://www.youtube.com/watch?v=-jdGpFiEB0g
 
 ![image](https://github.com/varshitha-008/Furni_Flex/assets/54645464/30d3ce26-4932-4666-9631-cdc01fe1e8cf)
 
-![image](https://github.com/varshitha-008/Furni_Flex/assets/54645464/820c8e37-6886-420f-bbb1-22a64037dca4)
 
 
 
