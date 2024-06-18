@@ -17,7 +17,7 @@ Frontend: https://furniflexrct.netlify.app/
 
 Backend: https://furni-flex-6.onrender.com/
 
-# Project Title
+# Furni_Flex
 
 ## Features
 
@@ -41,7 +41,7 @@ The project is a clone of the popular rental booking website Airbnb. To facilita
 
 To run the frontend website, enter the following commands in your terminal:
 
-```sh
+
 # Move into the FrontEnd directory
 cd FrontEnd/
 
