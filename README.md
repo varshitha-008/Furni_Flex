@@ -141,6 +141,52 @@ https : https://www.youtube.com/watch?v=-jdGpFiEB0g
 ![image](https://github.com/varshitha-008/Furni_Flex/assets/54645464/187659dd-7c00-47d1-bd79-1455a74b25fd)
 
 
+## Tech Stack
+
+The tech stack used for the project:
+
+FrontEnd :
+
+- React js
+- Redux
+- JSX
+- HTML
+- CSS
+- Javascript
+- Chakra UI
+
+Backend :
+
+- JSON-server and Json-server-auth
+- used rendor.com website
+
+## How to Use
+
+To run this project locally:
+
+1. Clone this repository to your local machine.
+2. Open Frontend folder in terminal
+3. Install npm packages using npm -i
+4. run command nupm run dev
+3. Explore the Furni_Flex website  experience right from your device.
+
+## Contributors
+
+- [Varshitha Basawraj](https://github.com/varshitha-008)
+- [Himanshu Rajpoot](https://github.com/HimanshuRajpoot2301)
+- [Madhu Mishra](https://github.com/MadhuMishra663)
+- [Pradeep Yadav](https://github.com/simply-code-it)
+- [Rameshwar Bedade](https://github.com/rambedade)
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Inspired by GodrejInterior original website.
+
 
 
 
