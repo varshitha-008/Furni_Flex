@@ -167,7 +167,7 @@ To run this project locally:
 1. Clone this repository to your local machine.
 2. Open Frontend folder in terminal
 3. Install npm packages using npm -i
-4. run command nupm run dev
+4. run command npm run dev
 3. Explore the Furni_Flex website  experience right from your device.
 
 ## Contributors
