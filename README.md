@@ -24,13 +24,15 @@ Backend: https://furni-flex-6.onrender.com/
 - Responsive and dynamic website
 - User authentication
 - Admin Dashboard and CRUD Operations
-- Add property to favorites
+- Coupons generation 
+- Added property to favorites
 - Search and filter property using search param
 - Private routes
+- Cart functionality
 
 ## Design Decisions or Assumptions
 
-The project is a clone of the popular furniture buying website Godrej Interior. To facilitate the proper design and flow of our project following assumptions were made :
+The project is a clone of the popular furniture-buying website Godrej Interior. To facilitate the proper design and flow of our project following assumptions were made :
 
 - One admin for all CRUD operations instead of multiple admins and super admin
 - One wishlist per user
