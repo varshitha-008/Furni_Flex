@@ -20,4 +20,45 @@ Backend: https://furni-flex-6.onrender.com/
 ## Directory Structure
 
 ```
+├── Backend
+│ ├── .gitignore
+│ ├── db.json
+│ ├── package-lock.json
+│ ├── package.json
+│ └── server.js
+├── Frontend
+│ ├── public
+│ ├── src
+│ │ ├── assets
+│ │ └── components
+│ │ ├── Admin
+│ │ │ ├── Dashboard
+│ │ │ └── Sidebar
+│ │ │ ├── Admin.jsx
+│ │ │ ├── Cart.jsx
+│ │ │ ├── Category.jsx
+│ │ │ ├── Chairs.jsx
+│ │ │ ├── Curtains.jsx
+│ │ │ ├── Footer.jsx
+│ │ │ ├── Homepage.jsx
+│ │ │ ├── Login.jsx
+│ │ │ ├── Navbar.css
+│ │ │ ├── Navbar.jsx
+│ │ │ ├── Payment.jsx
+│ │ │ ├── ProductCard.jsx
+│ │ │ ├── Screenshot 2024-06-15 at 1.13.43 AM.png
+│ │ │ ├── Signup.jsx
+│ │ │ ├── Sofas.jsx
+│ │ │ ├── Tables.jsx
+│ │ │ ├── Wardrobes.jsx
+│ │ │ └── WhatsApp Image 2024-06-23 at 11.53.48 AM.jpeg
+│ ├── redux
+│ │ ├── App.css
+│ │ ├── App.jsx
+│ │ ├── UserContext.jsx
+│ │ ├── index.css
+│ │ └── main.jsx
+├── .gitignore
+└── README.md
+```
 
