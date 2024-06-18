@@ -30,7 +30,7 @@ Backend: https://furni-flex-6.onrender.com/
 
 ## Design Decisions or Assumptions
 
-The project is a clone of the popular rental booking website Airbnb. To facilitate the proper design and flow of our project following assumptions were made :
+The project is a clone of the popular furniture buying website Godrej Interior. To facilitate the proper design and flow of our project following assumptions were made :
 
 - One admin for all CRUD operations instead of multiple admins and super admin
 - One wishlist per user
